@@ -16,7 +16,7 @@ const TileSelector = (props) => {
    <div className='tileSelector'>
      <div>Number of Tiles</div>
      <div className='tileSelectorDropdown'>
-       <div>numTiles={this.state.numTiles}</div>
+       {props.numTiles}
        {dropdown}
      </div>
    </div>

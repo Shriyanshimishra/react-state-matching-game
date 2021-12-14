@@ -5,8 +5,8 @@ import TileSelector from '../TileSelector'
 
 const OptionsPanel = (props) => (
   <div>
-    <TileSelector numTiles={this.state.numTiles} />
-    <Button playing={this.state.playing}/>
+    <TileSelector numTiles={props.numTiles} />
+    <Button playing={props.playing} startGame={props.startGame}/>
   </div>
 )
   
