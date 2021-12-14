@@ -2,7 +2,7 @@ import React from 'react'
 
 import './Tile.css'
 
-const Tile = () => {
+const Tile = (props) => {
 
   return (
     <div className='Tile'>
